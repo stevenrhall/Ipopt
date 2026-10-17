@@ -158,7 +158,6 @@ static IpoptProblem create_problem(void)
    AddIpoptStrOption(nlp, "hessian_approximation", "limited-memory");
    AddIpoptStrOption(nlp, "nlp_scaling_method", "user-scaling");
    SetIpoptProblemScaling(nlp, 3.0, x_scaling, g_scaling);
-   AddIpoptNumOption(nlp, "tol", 1e-10);
    AddIpoptIntOption(nlp, "print_level", 0);
    AddIpoptStrOption(nlp, "sb", "yes");
    return nlp;
