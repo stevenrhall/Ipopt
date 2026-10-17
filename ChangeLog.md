@@ -14,7 +14,7 @@ More detailed information about incremental changes can be found in the
   [#866, by Steven R. Hall].
 - Fixed scaling of the initial bound multipliers of a warm start when the variables are
   scaled, e.g., by user-scaling: they were multiplied by the scaling factors of the
-  variables where they must be divided by them [#NNN, by Steven R. Hall].
+  variables where they must be divided by them [#867, by Steven R. Hall].
 
 ### 3.14.20 (2026-08-27)
 
